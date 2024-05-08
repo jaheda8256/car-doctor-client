@@ -24,9 +24,9 @@ const Checkout = () => {
       price: price
     }
 
-    console.log(booking);
+    // console.log(booking);
 
-    fetch('http://localhost:5000/bookings', {
+    fetch('https://cardoctor-bdserver-chi.vercel.app/bookings', {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
